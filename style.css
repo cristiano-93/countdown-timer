@@ -14,6 +14,11 @@ body {
     color: aliceblue;
     padding: 5% 5%;
 }
+.countdown {
+  color: aliceblue;
+  font-size: 45px;
+  font-weight: 600;
+}
 
 .attribution {
   font-size: 11px;
