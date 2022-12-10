@@ -3,24 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons8-countdown-clock-32.png" />
     <link rel="stylesheet" href="style.css" />
     <title>Countdown timer</title>
   </head>
   <body>
     <div class="container">
-      <h2 id="title">Christmas is coming</h2>
+      <h2 id="title">Christmas is Coming</h2>
       <div class="countdown">
-        <!-- figure out how to place numbers on top of each span -->
-        <span id="Days" class="text">Days</span>
-        <span id="Hours" class="text">Hours</span>
-        <span id="Minutes" class="text">Minutes</span>
-        <span id="Seconds" class="text">Seconds</span>
+        <!-- splitting this div into smaller divs to make it easier to style each of these divs -->
+        <div class="col"><a id="daysD" class="digit">00</a><a id="days" class="text">Days</a></div>
+        <div class="col"><a id="hoursD" class="digit">00</a> <a id="hours" class="text">Hours</a></div>
+        <div class="col"><a id="minutesD" class="digit">00</a> <a id="minutes" class="text">Minutes</a></div>
+        <div class="col"><a id="secondsD" class="digit">00</a> <a id="seconds" class="text">Seconds</a></div>
       </div>
     </div>
     <div class="attribution">
-      Challenge by <a href="#">Frontend Mentor</a>. Coded by
-      <a href="https://cristianocodes.net/" target="_blank">Cristiano</a>.
+      Challenge by <a href="#">Frontend Mentor</a>. Coded by <a href="https://cristianocodes.net/" target="_blank">CristianoCodes</a>.
     </div>
     <script src="main.js"></script>
   </body>

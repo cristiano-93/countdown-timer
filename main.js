@@ -22,8 +22,11 @@ function tick() {
     if (seconds < 10) {
       seconds = "0" + seconds;
     }
-    let time = `${days} : ${hours} : ${minutes} : ${seconds}`;
 
-    document.querySelector(".countdown").innerText = time;
+    // adding these elements individually instead of a single `` string so that I can style them easier
+    document.getElementById("daysD").innerText = days;
+    document.getElementById("hoursD").innerText = hours;
+    document.getElementById("minutesD").innerText = minutes;
+    document.getElementById("secondsD").innerText = seconds;
   }
 }
