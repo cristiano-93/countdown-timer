@@ -39,7 +39,7 @@ body {
   flex-direction: row;
 }
 .col {
-  width: 140px;
+  width: 200px;
   display: flex;
   flex-direction: column;
 
