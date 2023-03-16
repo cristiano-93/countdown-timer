@@ -1,4 +1,4 @@
-let goalDate = new Date("Dec 25, 2022 00:00:00").getTime();
+let goalDate = new Date("Dec 25, 2023 00:00:00").getTime();
 let timer = setInterval(tick, 1000);
 function tick() {
   let now = new Date().getTime();
